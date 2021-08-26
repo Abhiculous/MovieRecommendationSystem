@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="{{ url_for('static',filename='public_html/layout.css')}}" rel="stylesheet" type="text/css" media="all">
+
+    <title>Recommendations</title>
+  </head>
+  <body>
+    <h2 style="font-size:4em;text-align:center;color: plum"> Recommendations</h2>
+    <ul class="list-group" style="color:orange; width:50%;margin-left:25%">
+    <h1>Deadpool</h1>
+    <h1>Minions</h1>
+    <h1>Intersteller</h1>        
+    </ul>
+  </body>
+</html>
